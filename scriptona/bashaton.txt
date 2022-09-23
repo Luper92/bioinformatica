@@ -1,0 +1,39 @@
+Pasos para descubrir la frase secreta:
+
+sudo ./welcome.sh
+cd paso_2
+touch instrucciones.txt 
+cat instrucciones.txt 
+cd ..
+cd paso_5
+head -n2 instrucciones.txt 
+cd ..
+cd paso_10
+cat instrucciones.txt 
+wget https://www.gnu.org/licenses/gpl-3.0.txt
+grep freedom gpl-3.0.txt 
+cd ..
+cd paso_8
+cat instrucciones.txt 
+wget https://www.rcsb.org/fasta/entry/7PND
+fgrep -o K 7PND | wc -l
+cd ..
+cd paso_24
+cat instrucciones.txt 
+wget https://www.alphafold.ebi.ac.uk/entry/F4HVG8
+du -sh F4HVG8
+cd ..
+cd paso_7
+cat instrucciones.txt 
+grep -o 'Homo sapiens' *.fasta | wc -l
+cd ..
+cd paso_9
+cat instrucciones.txt 
+cut -f2 -d ',' *.txt 
+[ver]
+history > comandos-bashaton.txt
+
+Frase Secreta descubierta:
+🧬
+💪
+🤗
