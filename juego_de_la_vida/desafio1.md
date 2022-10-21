@@ -1,6 +1,7 @@
  desafio 1: diferencias entre celula procariota y eucariota:
 
 Eucariota
+
 Tamaño: Mas grande (mide mas de 10 micrómetros)
 Composicion: Nucleo celular definido, mitocondrias, cloroplastos y citoesqueleto
 Modo de vida: Organismos unicelulares y pluricelulares
@@ -9,6 +10,7 @@ Forma: Variadas
 Division celular: Mitosis y meiosis
 
 Procariota:
+
 Tamaño: Mas pequeña(menos de 10 micrómetros)
 Composicion: No cuenta con núcleo celular, mitocondrias, cloroplastos y citoesqueleto
 Modo de vida: Organismos unicelulares
