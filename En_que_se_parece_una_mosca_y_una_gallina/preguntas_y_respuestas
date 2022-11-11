@@ -1,1 +1,40 @@
+PARA PENSAR 🤔:
+¿Cuán sencillo será alinear dos o más secuencias a mano? ¿Cuánto influirán el número de secuencias a alinear, su longitud, y la similitud entre ellas?
+Es posible, aunque tedioso solo para un par de cadenas. Es mejor contar con un programa automátizado que realice el trabajo. De esta forma la longitud y 
+el número de secuencias no presentarian un problema mayor que si fuera a mano.
 
+PARA PENSAR 🤔:
+¿Son parecidos los citocromos c de humano y gallo?
+Son bastante parecidos. Tienen mucha coincidencia a simple vista si alineamos y comparamos cada aminoacido, con algunas pocas diferencias.
+
+PARA PENSAR 🤔:¿Qué teorías subyacen a este análisis?
+Podria decirse que ambas especies tienen cierta cercania, ya que producen proteínas de similar composición.
+
+PARA PENSAR 🤔:
+¿Cómo nos ayuda la evolución a explicar sus similitudes y diferencias?
+Con la informacion de la evolucion de las especies podria hacerse un seguimiento de los cambios producidos en determinada especie, su origen, parientes en comun.
+
+Respecto a CLUSTAL-OMEGA:
+PARA PENSAR 🤔:
+¿Qué indican los colores?
+Indican cada tipo de aminoacido, que generalmente son resaltados cada uno en un color diferente.
+
+PARA PENSAR 🤔:
+¿Qué indican el guión (-), los dos puntos (:) y el asterisco (*)?
+Asterisco (*), indica que en dicha posición los residuos son 100%
+idénticos.
+Dos puntos (:), indican posiciones en las que se han realizado
+sustituciones conservativas.
+Punto (.), indica sustituciones menos conservativas.
+
+PARA PENSAR 🤔: A simple vista, ¿se conserva la secuencia del citocromo c en los organismos?
+En general si. hay, aparentemente, un porcentaje bajo de cambios
+
+PARA PENSAR 🤔: 
+¿Creeríamos que todos los organismos se asemejan por igual al resto, o se pueden identificar grupos de mayor similitud? Si es así, ¿tienen sentido?
+Hasta cierto punto algunos individuos son mas similares a otros. Tiene sentido ya que, mas allá de las diferencias biológicas, tambien influyen los cambios de 
+la evolución entre ellas.
+
+PARA PENSAR 🤔: ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
+Nos permite poder analizar las proteinas producidas por diferentes especies y compararlas entre si o la misma a travez del tiempo y observar si hay cambios 
+significativos en la composición. Nos facilita el trabajo de realizar estas observaciones.
