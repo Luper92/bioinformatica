@@ -38,3 +38,30 @@ la evolución entre ellas.
 PARA PENSAR 🤔: ¿Qué evidencias nos aportaría este análisis, a la luz de la evolución?
 Nos permite poder analizar las proteinas producidas por diferentes especies y compararlas entre si o la misma a travez del tiempo y observar si hay cambios 
 significativos en la composición. Nos facilita el trabajo de realizar estas observaciones.
+
+ARBOL FILOGENÉTICO:
+Observemos el árbol filogenético. ¿Concuerda con lo esperado? ¿De qué organismos son los citocromos c más parecidos? ¿Cómo se explica?
+
+En algunos casos es una lógico o esperable (como el humano con el chimpancé, y un poco mas lejos el gorila), 
+pero en otros no, como el caso de la rana y el pez(emparentados los 2) y que tengan un parecido con el gallo, y que segun el arbol
+sea alguna/s generacion/es de diferencia. 
+
+segun la tabla: 
+
+
+|------------------------------------------- Mosca (NP_477164.1)
+|                                     |----- Pez (XP_024245566.1)
+|                           |---------|
+|---------------------------|         |-----Rana (NP_001086101.1)
+|                           |---------------Gallo (NP_001072946.1)
+|                                     |-----Humano (NP_061820.1)
+|                           |---------|
+|            |--------------|         |-----Chimpancé (NP_001065289.1)
+|            |              |---------------Gorila (AEP27192.1)
+|------------|              |---------------Caballo (NP_001157486.1)
+             |--------------|
+                            |---------------Perro (NP_001183974.1)
+                            
+                            
+                            
+ los "|" indican el "nivel" de evolución o un cierto cambio en el tiempo que produjo una variacion en la especie.
