@@ -29,7 +29,8 @@ observacion: Si intento emparejar la cadena mas corta y le agrego un espacio en 
 que tienen algo en común. Podria aplicarse esta tecnica para cadenas de distintos tamaños?
 
 
-👇 RETO II: En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor 
+👇 RETO II:
+En la siguiente tabla probá distintos alineamientos para las palabras "ANA" y "ANANA". Verás que en el margen superior izquierdo aparece un valor 
 de identidad calculado para cada alineamitno que intentes.
 Tomá nota de los valores de identidad observados y de las conclusiones que se desprendan de estas observaciones.
 
@@ -116,31 +117,21 @@ Interpretando la recursión, explicá con tus palabras de dónde salen los valor
 👉 PARA PENSAR: Ingresá al servidor del NCBI y mirá los distintos programas derivados del BLAST que se ofrecen ¿Para qué sirve cada uno? ¿En qué casos usarías cada uno?
 
 Solucion:
-Global Align:
-Compara dos secuencias en todo su lapso (Needleman-Wunsch)
- 
-CD Search:
-Encuentre dominios conservados en su secuencia
- 
-IgBLAST
-Búsqueda de inmunoglobulinas y secuencias de receptores de células T
- 
-VecScreen
-Secuencias de búsqueda de contaminación por vectores
- 
-CDART
-Encuentre secuencias con una arquitectura de dominio conservado similar
- 
-Multiple Alignment:
-Alinear secuencias usando restricciones de dominio y proteína
- 
-MOLE-BLAST
-Establecer taxonomía para secuencias no cultivadas o ambientales
+Magia-BLAST
+Magic-BLAST es una herramienta para mapear corridas de secuenciación de ARN o ADN de próxima generación contra un genoma completo o transcriptoma.
 
-Cada uno sirve para las distintas necesidades del analisis de proteinas segun las descripciones.
+IgBLAST
+IgBLAST facilita el análisis de inmunoglobulinas y secuencias de dominio variable del receptor de células T.
+
+SRPRISMO
+SRPRISM es una herramienta de alineación de lectura corta que funciona con secuencias genómicas y maneja loci alternativos.
+
+Cada uno maneja y analiza diferentes tipo de informacion respecto a cadenas ADN, ARN y demas.
+
 
 Vamos a explorar esta herramienta!
-👇 RETO VII: calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 5000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id,  Score vs E-value
+👇 RETO VII:
+Calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 5000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id,  Score vs E-value
 
 VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG
 
