@@ -103,6 +103,47 @@ teniendo 2 secuencias cortas:
 La programación dinámica es útil en este caso para evitar analizar casos innecesarios y así no tengamos un trabajo extra. De hecho, la Prog. Dinámica se utiliza 
 para otorgar una solucion eficiente a grandes problemas centrandose en los posibles mejores resultados a un determinado problema. 
 
+👇 RETO VI: Utilizando la herramienta interactiva  desarrolladas por el Grupo de Bioinformática de Freiburg probá distintos Gap penalties para el ejemplo propuesto y observá lo que ocurre.
+ 
+Interpretando la recursión, explicá con tus palabras de dónde salen los valores de la matriz  que se construye. ¡Esquematiza tus conclusiones!
+ 
+1) el cuadro inicial arriba a la izquierda siempre empieza en 0
+2) Se completa la primer fila y culumna con la regla y valores de gap en cada cuadro
+3) Se completa la diagonal que corresponde con las comparaciones entre ambas cadenas con las reglas y valores de gap, match y mismatch.
+4) se completan el resto de los cuadros, segun la siguiente regla:
+   -se observan los cuadros de la izquierda, arriba y arriba a la izquierda, de los 3 se elige al mayor y se suma con el valor correspondiente al cuadro actual
+
+👉 PARA PENSAR: Ingresá al servidor del NCBI y mirá los distintos programas derivados del BLAST que se ofrecen ¿Para qué sirve cada uno? ¿En qué casos usarías cada uno?
+
+Solucion:
+Global Align:
+Compara dos secuencias en todo su lapso (Needleman-Wunsch)
+ 
+CD Search:
+Encuentre dominios conservados en su secuencia
+ 
+IgBLAST
+Búsqueda de inmunoglobulinas y secuencias de receptores de células T
+ 
+VecScreen
+Secuencias de búsqueda de contaminación por vectores
+ 
+CDART
+Encuentre secuencias con una arquitectura de dominio conservado similar
+ 
+Multiple Alignment:
+Alinear secuencias usando restricciones de dominio y proteína
+ 
+MOLE-BLAST
+Establecer taxonomía para secuencias no cultivadas o ambientales
+
+Cada uno sirve para las distintas necesidades del analisis de proteinas segun las descripciones.
+
+Vamos a explorar esta herramienta!
+👇 RETO VII: calculá el E-value y % identidad utilizando el programa Blast de la siguiente secuencia input usando 5000 hits, un e-value de 100 y tomando aquellos hits con un mínimo de 70% cobertura. Observe y discuta el comportamiento de : E-value vs. % id, Score vs % id,  Score vs E-value
+
+VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG
+
 
   
  
