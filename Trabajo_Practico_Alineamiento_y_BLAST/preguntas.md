@@ -135,6 +135,23 @@ Calculá el E-value y % identidad utilizando el programa Blast de la siguiente s
 
 VVGGLGGYMLGSAMSRPIIHFGSDYEDRYYRENMHRYPNQVYYRPMDEYSNQNNFVHDCVNITIKQHTVTTTTKGENFTETDVKMMERVVEQMCITQYERESQAYYQRGSSMVLFSSPPVILLISFLIFLIVG
 
+Description                                                         	Max-score    	Total-score   	Query-cover   	E-value    	Ident    	Accession
+
+Select seq ref|NP_000302.1|	
+major prion protein preproprotein Prp precursor [Homo sapiens]       282	             282	        100%	           5e-97	   100.00     NP_000302.1
+
+
+Select seq ref|NP_001265185.1|	
+major prion protein precursor [Mus musculus]                         242	             242        	94%	            3e-81	    89.06%	   NP_001265185.1
+
+Select seq ref|NP_001119810.1|	
+prion-like protein doppel precursor [Mus musculus]                   45.1            	45.1	       84%	           3e-05	      21.74%	   NP_001119810.1
+
+Select seq ref|NP_001265187.1|	
+prion protein gene complex [Mus musculus]                            45.1            	45.1	       84%	           3e-05      	21.74%	   NP_001265187.1
+
+
+en conclusion: La proteina se asemeja a la de un humano caso el 100% o a la de un ratón casero un 94%
 
   
  
